@@ -10,16 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+   
+    @IBOutlet weak var display: UILabel!
+    
+    @IBAction func toggleTimer(sender: UIButton) {
+        if(sender.currentTitle! == "Start") {
+            counter = 0.0;
+            sender.setTitle("Stop", forState:  UIControlState.Normal)
+            timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "tick", userInfo: nil, repeats: true)
+
+        } else {
+            timer.invalidate()
+              sender.setTitle("Start", forState:  UIControlState.Normal)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    var counter = 0.0
+    
+    var timer = NSTimer()
+    
+    func tick(){
+        counter += 0.1
+        display.text = "\(counter)s"
     }
-
-
 }
+
 
