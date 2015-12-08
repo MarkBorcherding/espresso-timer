@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DB1D8671C166FAF00081121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D8661C166FAF00081121 /* AppDelegate.swift */; };
+		4DB1D8691C166FAF00081121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D8681C166FAF00081121 /* ViewController.swift */; };
+		4DB1D86C1C166FAF00081121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1D86A1C166FAF00081121 /* Main.storyboard */; };
+		4DB1D86E1C166FAF00081121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1D86D1C166FAF00081121 /* Assets.xcassets */; };
+		4DB1D8711C166FAF00081121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1D86F1C166FAF00081121 /* LaunchScreen.storyboard */; };
+		4DB1D87C1C166FAF00081121 /* Espresso_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D87B1C166FAF00081121 /* Espresso_TimerTests.swift */; };
+		4DB1D8871C166FAF00081121 /* Espresso_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1D8861C166FAF00081121 /* Espresso_TimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DB1D8781C166FAF00081121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB1D85B1C166FAF00081121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB1D8621C166FAF00081121;
+			remoteInfo = "Espresso Timer";
+		};
+		4DB1D8831C166FAF00081121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB1D85B1C166FAF00081121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB1D8621C166FAF00081121;
+			remoteInfo = "Espresso Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DB1D8631C166FAF00081121 /* Espresso Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Espresso Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB1D8661C166FAF00081121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DB1D8681C166FAF00081121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DB1D86B1C166FAF00081121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DB1D86D1C166FAF00081121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB1D8701C166FAF00081121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DB1D8721C166FAF00081121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB1D8771C166FAF00081121 /* Espresso TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Espresso TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB1D87B1C166FAF00081121 /* Espresso_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso_TimerTests.swift; sourceTree = "<group>"; };
+		4DB1D87D1C166FAF00081121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB1D8821C166FAF00081121 /* Espresso TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Espresso TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB1D8861C166FAF00081121 /* Espresso_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso_TimerUITests.swift; sourceTree = "<group>"; };
+		4DB1D8881C166FAF00081121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB1D8601C166FAF00081121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB1D8741C166FAF00081121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB1D87F1C166FAF00081121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB1D85A1C166FAF00081121 = {
+			isa = PBXGroup;
+			children = (
+				4DB1D8651C166FAF00081121 /* Espresso Timer */,
+				4DB1D87A1C166FAF00081121 /* Espresso TimerTests */,
+				4DB1D8851C166FAF00081121 /* Espresso TimerUITests */,
+				4DB1D8641C166FAF00081121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB1D8641C166FAF00081121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1D8631C166FAF00081121 /* Espresso Timer.app */,
+				4DB1D8771C166FAF00081121 /* Espresso TimerTests.xctest */,
+				4DB1D8821C166FAF00081121 /* Espresso TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB1D8651C166FAF00081121 /* Espresso Timer */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1D8661C166FAF00081121 /* AppDelegate.swift */,
+				4DB1D8681C166FAF00081121 /* ViewController.swift */,
+				4DB1D86A1C166FAF00081121 /* Main.storyboard */,
+				4DB1D86D1C166FAF00081121 /* Assets.xcassets */,
+				4DB1D86F1C166FAF00081121 /* LaunchScreen.storyboard */,
+				4DB1D8721C166FAF00081121 /* Info.plist */,
+			);
+			path = "Espresso Timer";
+			sourceTree = "<group>";
+		};
+		4DB1D87A1C166FAF00081121 /* Espresso TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1D87B1C166FAF00081121 /* Espresso_TimerTests.swift */,
+				4DB1D87D1C166FAF00081121 /* Info.plist */,
+			);
+			path = "Espresso TimerTests";
+			sourceTree = "<group>";
+		};
+		4DB1D8851C166FAF00081121 /* Espresso TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1D8861C166FAF00081121 /* Espresso_TimerUITests.swift */,
+				4DB1D8881C166FAF00081121 /* Info.plist */,
+			);
+			path = "Espresso TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB1D8621C166FAF00081121 /* Espresso Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB1D88B1C166FAF00081121 /* Build configuration list for PBXNativeTarget "Espresso Timer" */;
+			buildPhases = (
+				4DB1D85F1C166FAF00081121 /* Sources */,
+				4DB1D8601C166FAF00081121 /* Frameworks */,
+				4DB1D8611C166FAF00081121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Espresso Timer";
+			productName = "Espresso Timer";
+			productReference = 4DB1D8631C166FAF00081121 /* Espresso Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DB1D8761C166FAF00081121 /* Espresso TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB1D88E1C166FAF00081121 /* Build configuration list for PBXNativeTarget "Espresso TimerTests" */;
+			buildPhases = (
+				4DB1D8731C166FAF00081121 /* Sources */,
+				4DB1D8741C166FAF00081121 /* Frameworks */,
+				4DB1D8751C166FAF00081121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB1D8791C166FAF00081121 /* PBXTargetDependency */,
+			);
+			name = "Espresso TimerTests";
+			productName = "Espresso TimerTests";
+			productReference = 4DB1D8771C166FAF00081121 /* Espresso TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DB1D8811C166FAF00081121 /* Espresso TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB1D8911C166FAF00081121 /* Build configuration list for PBXNativeTarget "Espresso TimerUITests" */;
+			buildPhases = (
+				4DB1D87E1C166FAF00081121 /* Sources */,
+				4DB1D87F1C166FAF00081121 /* Frameworks */,
+				4DB1D8801C166FAF00081121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB1D8841C166FAF00081121 /* PBXTargetDependency */,
+			);
+			name = "Espresso TimerUITests";
+			productName = "Espresso TimerUITests";
+			productReference = 4DB1D8821C166FAF00081121 /* Espresso TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB1D85B1C166FAF00081121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Mark Borcherding";
+				TargetAttributes = {
+					4DB1D8621C166FAF00081121 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4DB1D8761C166FAF00081121 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4DB1D8621C166FAF00081121;
+					};
+					4DB1D8811C166FAF00081121 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4DB1D8621C166FAF00081121;
+					};
+				};
+			};
+			buildConfigurationList = 4DB1D85E1C166FAF00081121 /* Build configuration list for PBXProject "Espresso Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DB1D85A1C166FAF00081121;
+			productRefGroup = 4DB1D8641C166FAF00081121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB1D8621C166FAF00081121 /* Espresso Timer */,
+				4DB1D8761C166FAF00081121 /* Espresso TimerTests */,
+				4DB1D8811C166FAF00081121 /* Espresso TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB1D8611C166FAF00081121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB1D8711C166FAF00081121 /* LaunchScreen.storyboard in Resources */,
+				4DB1D86E1C166FAF00081121 /* Assets.xcassets in Resources */,
+				4DB1D86C1C166FAF00081121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB1D8751C166FAF00081121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB1D8801C166FAF00081121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB1D85F1C166FAF00081121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB1D8691C166FAF00081121 /* ViewController.swift in Sources */,
+				4DB1D8671C166FAF00081121 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB1D8731C166FAF00081121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB1D87C1C166FAF00081121 /* Espresso_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB1D87E1C166FAF00081121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB1D8871C166FAF00081121 /* Espresso_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DB1D8791C166FAF00081121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB1D8621C166FAF00081121 /* Espresso Timer */;
+			targetProxy = 4DB1D8781C166FAF00081121 /* PBXContainerItemProxy */;
+		};
+		4DB1D8841C166FAF00081121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB1D8621C166FAF00081121 /* Espresso Timer */;
+			targetProxy = 4DB1D8831C166FAF00081121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DB1D86A1C166FAF00081121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB1D86B1C166FAF00081121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DB1D86F1C166FAF00081121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB1D8701C166FAF00081121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB1D8891C166FAF00081121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB1D88A1C166FAF00081121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB1D88C1C166FAF00081121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Espresso Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Borcherding.Espresso-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DB1D88D1C166FAF00081121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Espresso Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Borcherding.Espresso-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DB1D88F1C166FAF00081121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Espresso TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Borcherding.Espresso-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Espresso Timer.app/Espresso Timer";
+			};
+			name = Debug;
+		};
+		4DB1D8901C166FAF00081121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Espresso TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Borcherding.Espresso-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Espresso Timer.app/Espresso Timer";
+			};
+			name = Release;
+		};
+		4DB1D8921C166FAF00081121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Espresso TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Borcherding.Espresso-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Espresso Timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4DB1D8931C166FAF00081121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Espresso TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mark-Borcherding.Espresso-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Espresso Timer";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB1D85E1C166FAF00081121 /* Build configuration list for PBXProject "Espresso Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB1D8891C166FAF00081121 /* Debug */,
+				4DB1D88A1C166FAF00081121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB1D88B1C166FAF00081121 /* Build configuration list for PBXNativeTarget "Espresso Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB1D88C1C166FAF00081121 /* Debug */,
+				4DB1D88D1C166FAF00081121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB1D88E1C166FAF00081121 /* Build configuration list for PBXNativeTarget "Espresso TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB1D88F1C166FAF00081121 /* Debug */,
+				4DB1D8901C166FAF00081121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB1D8911C166FAF00081121 /* Build configuration list for PBXNativeTarget "Espresso TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB1D8921C166FAF00081121 /* Debug */,
+				4DB1D8931C166FAF00081121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB1D85B1C166FAF00081121 /* Project object */;
+}
